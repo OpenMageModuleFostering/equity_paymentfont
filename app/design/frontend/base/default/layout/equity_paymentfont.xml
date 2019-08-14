@@ -3,10 +3,14 @@
     <default>
     	<reference name="head">
         	<action method="addCss">
-        		<stylesheet>css/Equity/PaymentFont/css/paymentfont.min.css</stylesheet>
+        		<stylesheet helper="equity_paymentfont/loadPaymentFont">
+                    <args>css/Equity/PaymentFont/css/paymentfont.min.css</args>
+                </stylesheet>
         	</action>
 			<action method="addCss">
-        		<stylesheet>css/Equity/PaymentFont/css/equity_paymentfont.css</stylesheet>
+                <stylesheet helper="equity_paymentfont/loadPaymentFont">
+                    <args>css/Equity/PaymentFont/css/equity_paymentfont.css</args>
+                </stylesheet>
         	</action>
         </reference>
     </default>

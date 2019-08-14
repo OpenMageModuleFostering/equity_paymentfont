@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <config>
+	<modules>
+        <Equity_PaymentFont>
+            <version>1.0.1</version>
+        </Equity_PaymentFont>
+    </modules>
 	<frontend>
 		<layout>
 			<updates>
@@ -9,4 +14,18 @@
 			</updates>
 		</layout>
 	</frontend>
+	<global>
+        <helpers>
+            <equity_paymentfont>
+                <class>Equity_PaymentFont_Helper</class>
+            </equity_paymentfont>
+        </helpers>
+    </global>
+    <default>
+        <equity_sitemap_section>
+            <general>
+                <equity_sitemap_enabled>0</equity_sitemap_enabled>
+            </general>
+        </equity_sitemap_section>
+    </default>
 </config>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <equity translate="label" module="equity_paymentfont">
+            <label>Equity Extensions</label>
+            <sort_order>100</sort_order>
+        </equity>
+    </tabs>
+    <sections>
+        <equity_paymentfont translate="label" module="equity_paymentfont">
+            <label>PaymentFont</label>
+            <tab>equity</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <general translate="label" module="equity_paymentfont">
+                    <label>Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <expanded>1</expanded>
+ 				
+                    <fields>
+                        <equity_paymentfont_enabled translate="label comment">
+                            <label>Enable PaymentFont: </label>
+                            <comment>Enables paymentfont in frontend.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <tooltip>Go to http://paymentfont.io/ to view documentation.</tooltip>
+                        </equity_paymentfont_enabled>
+                    </fields>
+                </general>
+            </groups>
+        </equity_paymentfont>
+    </sections>
+</config>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Equity_PaymentFont</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://www.equity-plugins.com/eula">Equity EULA</license>
     <channel>community</channel>
@@ -12,12 +12,11 @@
 Go to http://paymentfont.io/ for documentation.&#xD;
 &#xD;
 Extra classes added with the plugin: pf-lg, pf-md, pf-bordered, pf-inv, pf-rounded</description>
-    <notes>- Initial commit&#xD;
-- Added custom classes: pf-md, pf-lg, pf-inv, pf-bordered, pf-rounded</notes>
+    <notes>- Added Admin Panel</notes>
     <authors><author><name>i6 Media</name><user>equity</user><email>info@i6media.com</email></author></authors>
-    <date>2015-11-03</date>
-    <time>14:18:12</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Equity_PaymentFont.xml" hash="05d3e55219f670a65905f9a4379eb082"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="equity_paymentfont.xml" hash="6a3bed89ffa4d7373fd758d7925e773c"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="Equity"><dir name="PaymentFont"><dir name="css"><file name="equity_paymentfont.css" hash="d7829472b2bfc9cc138547188abb66db"/><file name="paymentfont.min.css" hash="493d16201cbadfc70ea94cb3af4d224e"/></dir><dir name="fonts"><file name="paymentfont-webfont.eot" hash="1c4ce55b1c04c5b99cb46f41bc5bf912"/><file name="paymentfont-webfont.svg" hash="2a1b29479dbb8ec91202537f54e6c6d1"/><file name="paymentfont-webfont.ttf" hash="ee8af6b2f5ccfce287b25e6c7d0a5ef4"/><file name="paymentfont-webfont.woff" hash="966196dae4fcb2b6cbf4b5a817c9d2ef"/><file name="paymentfont-webfont.woff2" hash="05956c1d0cdac013c6f0ee4f830f63b7"/></dir></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Equity"><dir name="PaymentFont"><dir name="etc"><file name="config.xml" hash="a345315040534069eace7d25153d33fe"/></dir></dir></dir></target></contents>
+    <date>2015-11-09</date>
+    <time>10:01:25</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Equity_PaymentFont.xml" hash="05d3e55219f670a65905f9a4379eb082"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="equity_paymentfont.xml" hash="ad06b64e04fb84144127a5710409ccca"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="Equity"><dir name="PaymentFont"><dir name="css"><file name="equity_paymentfont.css" hash="d7829472b2bfc9cc138547188abb66db"/><file name="paymentfont.min.css" hash="493d16201cbadfc70ea94cb3af4d224e"/></dir><dir name="fonts"><file name="paymentfont-webfont.eot" hash="1c4ce55b1c04c5b99cb46f41bc5bf912"/><file name="paymentfont-webfont.svg" hash="2a1b29479dbb8ec91202537f54e6c6d1"/><file name="paymentfont-webfont.ttf" hash="ee8af6b2f5ccfce287b25e6c7d0a5ef4"/><file name="paymentfont-webfont.woff" hash="966196dae4fcb2b6cbf4b5a817c9d2ef"/><file name="paymentfont-webfont.woff2" hash="05956c1d0cdac013c6f0ee4f830f63b7"/></dir></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Equity"><dir name="PaymentFont"><dir name="Helper"><file name="Data.php" hash="fcc615a5216fe1186e8c5007f4e5a2ae"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9ef50ef0a3d1844aa9bbe560d62f37d8"/><file name="config.xml" hash="53db531fe2655de8863bf01fb505aa56"/><file name="system.xml" hash="58fb92ce033170cde144cb0b50ddd3af"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.7.0</max></php></required></dependencies>
 </package>
