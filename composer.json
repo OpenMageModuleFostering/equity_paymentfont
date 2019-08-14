@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Equity_PaymentFont",
+    "type": "magento-module",
+    "license": "Equity-EULA",
+    "homepage": "",
+    "description": "Use paymentfont.io in your own Magento Environment",
+    "authors": [
+    {
+        "name": "i6 Media",
+        "email": "info@i6media.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

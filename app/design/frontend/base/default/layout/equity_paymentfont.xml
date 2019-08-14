@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    	<reference name="head">
+        	<action method="addCss">
+        		<stylesheet>css/Equity/PaymentFont/css/paymentfont.min.css</stylesheet>
+        	</action>
+			<action method="addCss">
+        		<stylesheet>css/Equity/PaymentFont/css/equity_paymentfont.css</stylesheet>
+        	</action>
+        </reference>
+    </default>
+</layout>

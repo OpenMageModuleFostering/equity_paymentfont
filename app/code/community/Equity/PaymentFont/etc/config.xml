@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<frontend>
+		<layout>
+			<updates>
+				<equity_paymentfont>
+					<file>equity_paymentfont.xml</file>
+				</equity_paymentfont>
+			</updates>
+		</layout>
+	</frontend>
+</config>
